@@ -30,10 +30,10 @@ function validateUser(user) {
 function validateEmail(email) {
   const validation = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (validation.test(email.value)) {
-    error('rgb(189,87,87');
+    error('rgba(81, 193, 126, 0.796');
     return true;
   } else {
-    error('rgba(81, 193, 126, 0.796');
+    error('rgb(189,87,87');
   }
 }
 
